@@ -1,0 +1,128 @@
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/*nav-bar-section-end*/
+    .nav-hader{
+        margin-top: 15px;
+    }
+    .nav-manu{
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-top: 20px;
+    }
+   
+    .nav-manu a{
+        background-color: transparent;
+    }
+    [class*="col-"]{
+        float: left;
+        padding: 10px;
+    }
+/*nav-bar-section-end*/ 
+
+/*profile-section-start*/
+img{
+    width: 180px;
+    height: 180px;
+    }
+    .top-icon{
+        top:40px;
+        right: 40px;
+     }
+     .profile .top-icon:hover{
+         transform: rotate(360deg);
+             }
+ .profile-hader p{
+                width: 50%;  
+                }  
+ .bottom-icon{
+        bottom:10px;
+        left: 40px;
+         }                  
+
+/*profile-section-end*/
+
+/*about me section start*/
+.about-me{
+    
+}
+.about-me-img img {
+    width: 250px;
+    height: 200px;
+    margin-top: 30px;
+    border: 2px solid black;
+    border-radius: 50%;
+    animation: about-img 2s linear infinite;
+    position: relative;
+}
+@keyframes about-img{
+    0%{
+        top:0;
+        left: 0;
+    }
+    50%{
+        top:40px;
+        left: 0;
+        box-shadow: 0px 0px 10px 10px white;
+    }
+    100%{
+        top: 0;
+        left: 0;
+    }
+}
+.about-me-ditels{
+    text-align: left;
+}
+/*about me section end*/
+/*professional expreience star*/
+.card{
+    
+    padding: 20px;
+    height:680px ;
+}
+.card-skill li{
+    margin: 35px 0px;
+    
+}
+/*professional expreience end*/
+
+/*achevement-contact start hear */
+.more-contact{
+    position: relative;
+}
+.midea-button{
+    margin-top: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+/*achevement-contact start hear */
+
+/* footer section start */
+.footer-manu{
+    text-align: left;
+}
+.footer-manu a{
+    display:inline;
+}
+.footer-ditels{
+    text-align:right;
+    
+}
+.footer-ditels p{
+   margin:0px 20px;
+}
+/* footer section end */
